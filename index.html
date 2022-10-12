@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <p class="h1">ПРОПИСАВ ЧЕЛОВЕКА В ФОРМУ - ДОБАВЬТЕ ЕГО В НЕОБХОДИМУЮ КОЛОНКУ</p>
+        <form name="form">
+            <div class="inputsFlex">
+                <label for="firstName">
+                    <p class="nameText">Имя</p>
+                    <input type="text" class="surname" required placeholder="Bruce Reyes" name="firstName">
+                </label>
+                <label for="age">
+                    <p class="nameText">Возраст</p>
+                    <input type="number" class="years" required placeholder="24" name="age">
+                </label>
+                <button class="btn">Добавить</button>
+            </div>
+        </form>
+        <div class="minicontainer">
+            <div class="row1 row">
+                <div class="textBlock">
+                    <p class="title">Люди до 25</p>
+                </div>
+            </div>
+            <div class="row2 row">
+                <div class="textBlock">
+                    <p class="title">Люди до 50</p>
+                </div>
+            </div>
+            <div class="row3 row">
+                <div class="textBlock">
+                    <p class="title">Остальные</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>    
+    <script src="./script.js"></script>
+</body>
+
+</html>

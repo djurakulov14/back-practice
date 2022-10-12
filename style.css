@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+@font-face {
+    font-family: 'Gilroy 400';
+    src: url(./font/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy 500';
+    src: url(./font/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy 600';
+    src: url(./font/Gilroy-Semibold.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy 700';
+    src: url(./font/Gilroy-Bold.ttf);
+}
+.container{
+    padding-left: 30px;
+}
+.h1{
+    font-family: 'Gilroy 700';
+    font-size: 32px;
+    margin-top: 40px;
+}
+.inputsFlex{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.input{
+    max-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nameText{
+    font-family: 'Gilroy 600';
+    font-size: 17px;
+}
+.inputName{
+    width: 288px;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid #A6B0BA;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Gilroy 600';
+    font-size: 15px;
+    margin-top: 10px;
+}
+.years{
+    width: 288px;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid #A6B0BA;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Gilroy 600';
+    font-size: 15px;
+    margin-top: 10px;
+}
+.surname{
+    width: 288px;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid #A6B0BA;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Gilroy 600';
+    font-size: 15px;
+    margin-top: 10px;
+}
+.btn{
+    background-color: #004DFF;
+    width: 100px;
+    height: 50px;
+    margin-top: 31px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Gilroy 600';
+    font-size: 15px;
+    color: white;
+}
+.minicontainer{
+    width: 95%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.row{
+    width: 550px;
+    height: fit-content;
+}
+.textBlock{
+    width: 100%;
+    height: 70px;
+    font-family: 'Gilroy 700';
+    font-size: 28px;
+}
+.row1{
+    border-right: 2px solid #c4c4c4;   
+}
+.row2{
+    border-right: 2px solid #c4c4c4;
+}
+.box{
+    width: 85%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #c4c4c4;
+    margin-top: 15px;
+}
+.imgBlock{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    font-family: 'Gilroy 700';
+    font-size: 32px;
+}
+.img{
+    height: 100%;
+    width: 60px;
+}
+.ageBlock{
+    background-color: #c4c4c450;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.age{
+    color: gray;
+    font-size: 18px;
+}
+.ages{
+    color: gray;
+    font-size: 18px;
+}
